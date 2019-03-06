@@ -34,14 +34,17 @@ public class Actor {
     }
 
     public void setRealName(String realName) {
+
         this.realName = realName;
     }
 
-    public Set<Movie> getMovies() {
+    public Set<Movie> getMovies()
+    {
         return movies;
     }
 
     public void setMovies(Set<Movie> movies) {
+
         this.movies = movies;
     }
 
