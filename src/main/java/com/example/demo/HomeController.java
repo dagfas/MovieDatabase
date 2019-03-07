@@ -8,7 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.HashSet;
 import java.util.Set;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0cca705afb6dee3cfd4830a557b0fc7a27575268
 @Controller
 public class HomeController {
 
