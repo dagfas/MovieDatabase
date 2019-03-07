@@ -10,6 +10,7 @@ public class Actor {
     private long id;
     private String name;
     private String realName;
+
     @ManyToMany(mappedBy = "cast")
     private Set<Movie> movies;
 
